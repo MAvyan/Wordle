@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const PlayAgain = ({ onClick }) => {
   return (
     <>
-      <Button onClick={onClick}>Play Again?</Button>
+      <Button onClick={onClick}>Play Again ?</Button>
     </>
   );
 };
