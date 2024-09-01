@@ -1,4 +1,4 @@
-import { letterChecker, hasWon, hasLost } from "./functions";
+import { letterChecker, hasWon, hasLost } from "./LetterChecker";
 import { useEffect } from "react";
 import keys from "../../src/data/keys.json";
 import styled from "styled-components";

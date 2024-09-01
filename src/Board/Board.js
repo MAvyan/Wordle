@@ -1,6 +1,6 @@
 import styled, { keyframes, css } from "styled-components";
 import { useEffect } from "react";
-import { hasLost } from "./functions";
+import { hasLost } from "./LetterChecker";
 
 const Board = ({ guessedLetter, colorRoadMap, letterArray, counter }) => {
   const squares = [];
