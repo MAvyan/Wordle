@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import Keyboard from "./Board/Keyboard";
-import Board from "./Board/Board";
-import Title from "./Board/Title";
+import './index.css'; // Import your Tailwind CSS here
+import Keyboard from "./Components/Board/Keyboard";
+import Board from "./Components/Board/Board";
+import Header from "./Components/Header";
 import GlobalStyles from "./GlobalStyles";
 import Status from "./Status";
 
@@ -54,7 +55,7 @@ const App = () => {
         />
       ) : (
         <>
-          <Title />
+          <Header />
           <Board
             guessedLetter={guessedLetter}
             colorRoadMap={colorRoadMap}

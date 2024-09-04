@@ -1,6 +1,6 @@
 import { letterChecker, hasWon, hasLost } from "./LetterChecker";
 import { useEffect } from "react";
-import keys from "../../src/data/keys.json";
+import keys from "../../../src/data/keys.json";
 import styled from "styled-components";
 import { FiDelete } from "react-icons/fi";
 
@@ -235,6 +235,7 @@ const Enter = styled.button`
   border-radius: 5px;
   text-align: center;
   margin-right: 4px;
+  cursor: pointer;
   background-color: lightgray;
   /* ${media.mobile} {
     width: 15vw;
@@ -247,6 +248,7 @@ const Del = styled.button`
   font-size: 125%;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
   background-color: lightgray;
   /* ${media.mobile} {
     width: 15vw;
